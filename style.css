@@ -2,25 +2,54 @@ body {
   margin: 0;
   font-family: "Outfit", sans-serif;
 }
+.background {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+}
 h1 {
-  font-size: 50pxS;
+  font-size: 50px;
 }
 .name {
   color: orange;
 }
-.half {
+.first {
   width: 40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
 }
-.half img {
+.first img {
   width: 100%;
 }
-.img {
-  background-image: url("img/background.png");
-  background-repeat: no-repeat;
+
+section {
+  height: 500px;
+}
+.linkbutton {
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 700;
 }
 section {
   height: 500px;
+}
+h1 {
+  font-size: 50px;
+}
+.first2 img {
+  width: 100%;
+}
+.first2 {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.background2 {
+  background-image: url("img/background\ 2.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
 }

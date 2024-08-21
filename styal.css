@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "New Amsterdam", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+.a {
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+}
+.b {
+  background-image: url(img/background\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.c {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.sojol {
+  width: 40%;
+  float: left;
+  margin: 4%;
+}
+.sojol img {
+  width: 100%;
+}
+section {
+  height: 500px;
+  padding-bottom: 100px;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(lightsalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
+.name {
+  color: orange;
+}
+.Experiences {
+  box-shadow: 10px 10px 40px gray;
+  height: 70%;
+  padding-left: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+#Full {
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#Baby {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(131, 212, 255), rgb(0, 0, 255));
+  border-image-slice: 1;
+}
